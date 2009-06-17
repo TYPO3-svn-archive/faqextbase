@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'faqextbase'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_faqextbase_domain_model_faq">faq</label>
+			<label index="tx_faqextbase_domain_model_faq.name">Name of the faq</label>
+			<label index="tx_faqextbase_domain_model_faq.description">Short description</label>
+			<label index="tx_faqextbase_domain_model_faq.logo">Logo</label>
+			<label index="tx_faqextbase_domain_model_faq.posts">Posts</label>
+		</languageKey>
+	</data>
+</T3locallang>

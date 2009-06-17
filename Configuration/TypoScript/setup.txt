@@ -1,0 +1,25 @@
+plugin.tx_faqextbase {
+	controllers {
+		Faq {
+			singlePid = 25
+			maxItems = 8
+			actions {
+				index {
+					maxItems = 5					
+				}
+			}
+		}		
+	}
+}
+
+plugin.tx_faqextbase_pi1 < plugin.tx_faqextbase
+plugin.tx_faqextbase_pi1 {
+	maxItems = 5
+}
+
+# This is an example how to modify the translation
+plugin.tx_faqextbase._LOCAL_LANG {
+	default {
+		read_more = more >>
+	}
+}
