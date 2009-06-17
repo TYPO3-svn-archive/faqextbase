@@ -1,7 +1,7 @@
 #
 # Table structure for table 'tx_faqextbase_domain_model_faq'
 #
-CREATE TABLE tx_blogexample_domain_model_post (
+CREATE TABLE tx_faqextbase_domain_model_faq (
 	uid int(11) unsigned DEFAULT '0' NOT NULL auto_increment,
 	pid int(11) DEFAULT '0' NOT NULL,
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE tx_blogexample_domain_model_post (
 	answer text NOT NULL,
 	category varchar(255) DEFAULT '' NOT NULL,
 	vues varchar(8) DEFAULT '0' NOT NULL
-	
+
 	PRIMARY KEY (uid),
 	KEY parent (pid),
 );
